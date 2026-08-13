@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Top-Rated-Cafes.css">
+        <link rel="stylesheet" href="/dist/output.css">
+        <link rel="shortcut icon" href="/dist/img/coffee icon.png" type="image/x-icon">
+        <title>Montalban Coffee Finds</title>
+    </head>
+    <body>
+        <nav id="nav" class="bg-white/10 w-full p-3 backdrop-blur-xs grid grid-cols-3 max-md:grid-cols-2 ">
+            <div class="flex items-center gap-2 ">
+                <a href="/dist/index.html">
+                    <div class="flex items-center gap-2">
+                        <p class="max-sm:text-xs text-white text-xl">Montalban</p>
+                        <p class="text-yellow-500 text-xs max-sm:text-xs">Coffee Finds</p>
+                    </div>
+                </a>
+            </div>
+            <div class="flex items-center justify-center gap-10 text-white/60 ">
+                <a href="/dist/index.html" class="max-md:hidden text-white transition ease-in hover:scale-130">Home</a>
+                <a href="/dist/index.html#about" class="max-md:hidden hover:text-white transition ease-in hover:scale-130 ">About</a>
+                <a href="/dist/index.html#contact" class="max-md:hidden hover:text-white transition ease-in hover:scale-130 ">Contact</a>
+                <img onclick="Showmenu()" id="hamburger" src="/dist/img/more.png" alt="hamburger" class="w-7 h-7 ml-30 md:hidden cursor-pointer">
+            </div>
+        </nav>
+
+        <div id="menushow" 
+                class="absolute top-13 sm:top-22 left-1/2 transform -translate-x-1/2 bg-black/90 w-full p-5 gap-1 flex flex-col rounded-b-2xl justify-center items-center hidden md:hidden z-50">
+                <a href="/dist/index.html" class="text-black text-xl bg-white/80 w-full text-center p-3 rounded-xs active:bg-white" target="_blank">Home</a>
+                <a href="/dist/index.html#about" class="text-center text-white text-xl w-full p-3  active:text-black hover:bg-white/40 rounded-xs active:bg-white" target="_blank">About</a>
+                <a href="/dist/index.html#contact" class="text-center  text-white text-xl w-full p-3  active:text-black hover:bg-white/40 rounded-xs active:bg-white" target="_blank">Contact</a>
+        </div>
+
+        <section id="top-rated" class="py-8 w-[80%] mx-auto ">
+                <h2 class="text-3xl font-bold text-yellow-500 text-center mb-8">Top Rated Cafés in Montalban</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 ">
+
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/calleCo/calleCo.jpg" alt="calleCo" class="rounded-2xl border border-white h-50 mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">Calle Co. Café</h1>
+                                <a href="https://maps.app.goo.gl/SQ6fvNnKwfieX9qU6" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">Litex Village, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 10:AM - 10:PM daily</h1>
+                                
+                                    <div class=" rounded-2xl grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                    </div>
+                                    
+                                
+                            </a>
+                        </div>
+
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/Catsanctuary/Cappuccino.jpg" alt="calleCo" class="rounded-2xl border border-white h-50 mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">Cat Sanctuary Café</h1>
+                                <a href="https://maps.app.goo.gl/nDoxpdUi16srbd4F7" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">Litex Village, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 8:AM - 11:PM daily</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/parked-car.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Parking</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/happy.png" alt="wifi" class="w-6 inline">
+                                            <p class="inline text-[8px]">Cat Lounge </p>
+                                        </div>
+                                    </div>
+                                
+                            </a>
+                        </div>
+
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/6Dcafe/6d_2.jpg" alt="calleCo" class="rounded-2xl border border-white h-50 w-40 mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">6D Café</h1>
+                                <a href="https://maps.app.goo.gl/hDgPUBUfBthKGqMB7" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">681 Ipil St, San Jose Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 12:30:PM - 12:AM daily</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/parked-car.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Parking</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/6Dcafe/pawprint.png" alt="wifi" class="w-6 inline">
+                                            <p class="inline text-[8px]">Pets Allowed </p>
+                                        </div>
+                                    </div>
+                                
+                            </a>
+                        </div>
+                        
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/kapeTagpuan/kape.jpg" alt="calleCo" class="rounded-2xl border border-white h-50  mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">Kape at Tagpuan</h1>
+                                <a href="https://maps.app.goo.gl/nDoxpdUi16srbd4F7" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">200 Rodriguez High Way, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 11:AM - 10:PM daily</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-2 text-center ">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/parked-car.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Parking</p>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/Dear Monday/unnamed.webp" alt="calleCo" class="rounded-2xl border border-white h-50  mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">Dear Monday Café</h1>
+                                <a href="https://maps.app.goo.gl/wdEdXbUEx7ybcchW8" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">Liamzon Street, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 01:PM - 11:PM daily</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-2 text-center ">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/6Dcafe/pawprint.png" alt="wifi" class="w-6 inline">
+                                            <p class="inline text-[8px]">Pets Allowed </p>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/c&c/c&c Cafe.webp" alt="calleCo" class="rounded-2xl border border-white h-50  mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">C&C Café PH</h1>
+                                <a href="https://maps.app.goo.gl/EoqhYVGVuycSfDFz9" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">Brgy. Balite, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 24/7 hours</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-2 text-center ">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/parked-car.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Parking</p>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/c&c/c&c Cafe.webp" alt="calleCo" class="rounded-2xl border border-white h-50  mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">C&C Café PH</h1>
+                                <a href="https://maps.app.goo.gl/EoqhYVGVuycSfDFz9" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">Brgy. Balite, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 24/7 hours</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-2 text-center ">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/parked-car.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Parking</p>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+                        
+
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/c&c/c&c Cafe.webp" alt="calleCo" class="rounded-2xl border border-white h-50  mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">C&C Café PH</h1>
+                                <a href="https://maps.app.goo.gl/EoqhYVGVuycSfDFz9" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">Brgy. Balite, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 24/7 hours</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-2 text-center ">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/parked-car.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Parking</p>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+
+                        <div id="calleCo" class="p-4 bg-white/10 rounded-2xl backdrop-blur-[3px] text-xs md:max-w-md">
+                            <a href="https://www.kapehan.ph/">
+                                <img src="/dist/img/c&c/c&c Cafe.webp" alt="calleCo" class="rounded-2xl border border-white h-50  mx-auto my-auto">
+                                <h1 class="text-3xl text-yellow-500 text-center font-sans ">C&C Café PH</h1>
+                                <a href="https://maps.app.goo.gl/EoqhYVGVuycSfDFz9" target="_blank">
+                                    <img src="/dist/img/location.png" alt="loc" class="w-7 inline">
+                                    <h1 class="text-white inline hover:text-red-700">Brgy. Balite, Montalban Rizal</h1>
+                                </a>
+                                <br>
+                                <img src="/dist/img/24-hour-clock.png" alt="loc" class="w-7 inline">
+                                <h1 class="text-white inline">Opens 24/7 hours</h1>
+                                
+                                    <div class=" grid grid-cols-3 text-center">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/cutlery.png" alt="dine-in" class="w-7 inline">
+                                            <p class="inline text-[10px]">Dine-in</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/calleCo/food.png" alt="take-out" class="w-7 inline">
+                                            <p class="inline text-[10px]">Take-out</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/wi-fi.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Wifi</p>
+                                        </div>
+                                    </div>
+                                    <div class=" rounded-2xl grid grid-cols-2 text-center ">
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/toilet.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Restroom</p>
+                                        </div>
+                                        <div class="border rounded-xl p-1 bg-white hover:bg-white/60 active:bg-white/60">
+                                            <img src="/dist/img/Catsanctuary/parked-car.png" alt="wifi" class="w-7 inline">
+                                            <p class="inline text-[10px]">Parking</p>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div id="about" class="py-12 w-[90%] lg:w-[50%] mx-auto text-center mt-5">
+                        <h2 class="text-3xl font-bold text-yellow-500 mb-6">About This Website</h2>
+                        <p class="text-gray-200 leading-relaxed">
+                            This site was created to celebrate the growing coffee culture in Montalban. 
+                            From budget-friendly student cafés to aesthetic hangouts perfect for photos 
+                            and meetups, our goal is to highlight the best spots where coffee, community, 
+                            and creativity come together.
+                        </p>
+                        <p class="text-gray-200 mt-4 leading-relaxed">
+                            Here you’ll find curated lists of top rated cafés, aesthetic destinations, 
+                            and field notes that share stories from local coffee lovers. Whether you’re 
+                            looking for a quiet corner to study, a cozy place to catch up with friends, 
+                            or simply the best iced latte in town, this site is your guide to Montalban’s 
+                            café scene.
+                        </p>
+                        <a href="#nav"><button class="mt-5 cursor-pointer hover:scale-120 transition duration-300 delay-150 ease-in"><img src="/dist/img/up-arrow.png" alt="arrowUp" class="w-10 bg-white rounded-full"></button></a>
+                    </div>
+        </section>
+
+    </body>
+    <script src="/dist/script.js"></script>
+</html>
