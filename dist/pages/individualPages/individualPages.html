@@ -9,7 +9,61 @@
         <title>Montalban Coffee Finds</title>
     </head>
     <body>
-        
-        
+        <nav id="nav" class="bg-white/10 w-full p-3 backdrop-blur-xs grid grid-cols-3 max-md:grid-cols-2 ">
+            <div class="flex items-center gap-2 ">
+                <a href="/dist/index.html">
+                    <div class="flex items-center gap-2">
+                        <p class="max-sm:text-xs text-white text-xl">Montalban</p>
+                        <p class="text-yellow-500 text-xs max-sm:text-xs">Coffee Finds</p>
+                    </div>
+                </a>
+            </div>
+            <div class="flex items-center justify-center gap-10 text-white/60 ">
+                <a href="/dist/index.html" class="max-md:hidden text-white transition ease-in hover:scale-130">Home</a>
+                <a href="/dist/index.html#about" class="max-md:hidden hover:text-white transition ease-in hover:scale-130 ">About</a>
+                <a href="/dist/index.html#contact" class="max-md:hidden hover:text-white transition ease-in hover:scale-130 ">Contact</a>
+                <img onclick="Showmenu()" id="hamburger" src="/dist/img/more.png" alt="hamburger" class="w-7 h-7 ml-30 md:hidden cursor-pointer">
+            </div>
+        </nav>
+
+        <div id="menushow" 
+                class="absolute top-13 sm:top-22 left-1/2 transform -translate-x-1/2 bg-black/90 w-full p-5 gap-1 flex flex-col rounded-b-2xl justify-center items-center hidden md:hidden z-50">
+                <a href="/dist/index.html" class="text-black text-xl bg-white/80 w-full text-center p-3 rounded-xs active:bg-white" target="_blank">Home</a>
+                <a href="/dist/index.html#about" class="text-center text-white text-xl w-full p-3  active:text-black hover:bg-white/40 rounded-xs active:bg-white" target="_blank">About</a>
+                <a href="/dist/index.html#contact" class="text-center  text-white text-xl w-full p-3  active:text-black hover:bg-white/40 rounded-xs active:bg-white" target="_blank">Contact</a>
+                <a href="/dist/pages/Top-Rated-Cafes.html" class="text-center  text-white text-xl w-full p-3  active:text-black hover:bg-white/40 rounded-xs active:bg-white" target="_blank">Top Rated Café</a>
+                <a href="/dist/pages/Aesthetic.html" class="text-center  text-white text-xl w-full p-3  active:text-black hover:bg-white/40 rounded-xs active:bg-white" target="_blank">Aesthetic Café</a>
+        </div>
+
+        <section id="individualCafe" class="py-8 w-[90%] mx-auto">
+                        <div id="cafeCard" class=" md:w-[80%] mx-auto bg-black/60 backdrop-blur-xs rounded-xl shadow-lg overflow-hidden p-4 text-white">
+                            <div class="flex justify-center items-center  flex-col">
+                                <img id="cafeImage" src="" alt="Cafe Image" class="h-50 w-60 rounded-2xl border border-white">
+                                <h2 id="cafeName" class="text-2xl font-bold text-yellow-500"></h2>
+                            </div>
+                                <div class="bg-white/10 rounded-2xl p-3 text-black">
+                                    <h3 class="text-[15px] font-bold text-white">About this Cafe</h3>
+                                    <p id="cafeDesc" class="bg-white rounded-2xl p-2 w-fit text-xs"></p>
+
+                                    <h3 class="text-[15px] font-bold text-white">Opening Hours</h3>
+                                    <div class="bg-white rounded-2xl p-2 w-fit">
+                                        <img src="/dist/img/24-hour-clock.png" alt="" class="inline w-6"><p id="cafeHours" class="text-xs inline mt-1"></p>
+                                    </div>
+
+                                    <h3 class="text-[15px] font-bold text-white">Location</h3>
+                                    <div class="bg-white rounded-2xl p-2 w-fit">
+                                        <img src="/dist/img/location.png" alt="" class="inline w-6"><p id="cafeAddress" class="text-xs inline"></p>
+                                    </div>
+
+                                    <h3 class="text-[15px] font-bold text-white">Amenities</h3>
+                                    <div id="cafeAmenities" class="flex flex-wrap gap-2"> </div>
+                                    <iframe id="cafeMap" width="100%" height="400" class="mt-4 rounded-xl"></iframe>
+
+                                    <center><a href="/dist/index.html" class="mt-6 inline-block bg-yellow-400 px-4 py-1.5 rounded text-black">← Back to Home</a></center>
+                                </div>
+                        </div>
+        </section>
     </body>
+    <script src="individual.js"></script>
+    <script src="/dist/script.js"></script>
 </html>
