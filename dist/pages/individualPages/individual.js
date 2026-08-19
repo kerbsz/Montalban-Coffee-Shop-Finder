@@ -21,7 +21,7 @@ const cafes = {
         address: "Libongco Highway, Montalban Rizal",
         image: "/dist/img/aestheticCafe/trainom/tarainom.jpg",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151775.64296825745!2d121.07097445820311!3d14.72938820000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bb095c15f7d3%3A0x95ea6a296191821f!2sTara%20Inom%20Cafe%20Montalban%20Hi-way!5e1!3m2!1sen!2sph!4v1786996587683!5m2!1sen!2sph",
-        amenities: ["WiFi", "Pets Allowed", "Parking"]
+        amenities: ["WiFi", "Parking", "Dine-in", "Take-out", "Restroom", "Pets Allowed"]
     },
     sixdcafe: {
         name: "6D Café",
@@ -41,7 +41,7 @@ const cafes = {
         address: "Liamzon Street, Montalban Rizal",
         image: "/dist/img/Dear Monday/unnamed.webp",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4742.902950085938!2d121.1330803!3d14.733334500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bb5a641562cb%3A0x3c398570d950602a!2sDear%20Mondays%20Cafe!5e1!3m2!1sen!2sph!4v1787088393899!5m2!1sen!2sph",
-        amenities: ["WiFi", "Parking", "Dine-in", "Take-out", "Restroom", "Pets Allowed"]
+        amenities: ["WiFi", "Dine-in", "Take-out", "Restroom", "Pets Allowed"]
     },
     catsanctuary: {
         name: "Cat Sanctuary Café",
@@ -61,7 +61,7 @@ const cafes = {
         address: "Litex Village, San Jose, Rodriguez Rizal",
         image: "/dist/img/calleco/calleco.jpg",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4742.880081774837!2d121.12962309999995!3d14.734385000000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bb002670f8c3%3A0xa3adaca02256ab1d!2sCalle%20Co.%20San%20Jose%2C%20Rodriguez%20Rizal!5e1!3m2!1sen!2sph!4v1787088718901!5m2!1sen!2sph",
-        amenities: ["WiFi", "Parking", "Dine-in", "Take-out", "Restroom"]
+        amenities: ["WiFi", "Dine-in", "Take-out", "Restroom"]
     },
     kapetagpuan: {
         name: "Kape at Tagpuan",
@@ -71,7 +71,7 @@ const cafes = {
         address: "200 Rodriguez Highway, Montalban Rizal",
         image: "/dist/img/kapeTagpuan/kape.jpg",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4742.975290958403!2d121.13961789999996!3d14.730010900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bb007a28cf65%3A0x19048ba54ec587b1!2sKape%20at%20Tagpuan!5e1!3m2!1sen!2sph!4v1787089151493!5m2!1sen!2sph",
-        amenities: ["WiFi", "Parking", "Dine-in", "Take-out", "Restroom", "Tea Selection", "Live Performances"]
+        amenities: ["WiFi", "Parking", "Dine-in", "Take-out", "Restroom"]
     },
     CandC: {
         name: "C&C Café PH",
@@ -102,7 +102,7 @@ const cafes = {
         address: "#94 Yakal St., Montalban Rizal",
         image: "/dist/img/aestheticCafe/dzone/D-Zone Sports Bar Café.webp",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4743.0223857858655!2d121.13417629999996!3d14.727846800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bb00517d2d9b%3A0x68e5448788ee71a0!2sD-Zone%20Sports%20Bar%20Caf%C3%A9!5e1!3m2!1sen!2sph!4v1787088843696!5m2!1sen!2sph",
-        amenities: ["Dine-in", "Food", "Restroom", "Parking"]
+        amenities: ["Dine-in", "Restroom", "Parking"]
     },
     embrace: {
         name: "Embrace Café",
