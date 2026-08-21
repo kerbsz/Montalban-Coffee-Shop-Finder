@@ -29,7 +29,7 @@ const cafes = {
         desc: "6D Café is a welcoming spot in San Jose, Montalban, offering cozy vibes, modern amenities, and flexible dining options for groups, families, and casual hangouts.",
         hours: "12:30 PM – 12:00 AM daily",
         address: "681 Ipil St, San Jose, Montalban Rizal",
-        image: "../../img/6dcafe/6d_2.jpg",
+        image: "../../img/6Dcafe/6dcafe.jpg",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4742.977530716012!2d121.13084137510866!3d14.72990798577186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bbd1a57b8ce1%3A0xab9ae2ffec98d5f0!2s6D%20Cafe!5e1!3m2!1sen!2sph!4v1787088261976!5m2!1sen!2sph",
         amenities: ["WiFi", "Parking", "Dine-in", "Take-out", "Restroom", "Pets Allowed"]
     },
